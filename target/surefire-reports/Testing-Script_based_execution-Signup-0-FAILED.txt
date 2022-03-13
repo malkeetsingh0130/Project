@@ -1,0 +1,42 @@
+Status: FAILED
+Time Taken: 1771
+Size: 0
+Timestamp: Sun Mar 13 19:07:06 IST 2022
+TestStep: Signup
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:400 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://ecommerceservice.herokuapp.com
+Method: POST
+StatusCode: 400
+URL: https://ecommerceservice.herokuapp.com/user/signup
+
+---------------- Request ---------------------------
+: []
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [ecommerceservice.herokuapp.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [62]
+Content-Type: [application/json]
+
+POST https://ecommerceservice.herokuapp.com/user/signup HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+: 
+Content-Length: 62
+Host: ecommerceservice.herokuapp.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+Server: [Cowboy]
+Connection: [close]
+#status#: [HTTP/1.1 400 Bad Request]
+Date: [Sun, 13 Mar 2022 13:37:10 GMT]
+Via: [1.1 vegur]
